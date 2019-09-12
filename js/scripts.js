@@ -1,8 +1,8 @@
 $(document).ready(function() {
-  $("form").submit(function(event) {
-    $("p").css("backgroud-color", favoriteColor)
+  $("#colorForm").submit(function(event) {
+    debugger;
     var favoriteColor = $("#color").val();
-    Alert(backgroud-color)
+    $("body").css("background-color", favoriteColor);
 
     event.preventDefault();
   });
